@@ -1,0 +1,33 @@
+{
+  "name": "@kisongerstellen/ki-song-erstellen-mcp",
+  "version": "0.1.0",
+  "description": "KI Song erstellen via MCP: Songs, Instrumentals und Songtexte mit der KlangKI API auf kisongerstellen.com erstellen.",
+  "type": "module",
+  "license": "MIT",
+  "author": "KlangKI",
+  "homepage": "https://kisongerstellen.com/",
+  "repository": { "type": "git", "url": "https://github.com/kisongerstellen/ki-song-erstellen-mcp.git" },
+  "keywords": ["mcp", "model-context-protocol", "ki-song-erstellen", "ai-music", "lyrics", "klangki"],
+  "bin": { "ki-song-erstellen-mcp": "dist/index.js" },
+  "files": ["dist", "docs", "examples", ".env.example", "README.md", "README.en.md", "LICENSE"],
+  "engines": { "node": ">=22" },
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "pnpm build && tsx --test test/*.test.ts",
+    "prepack": "pnpm build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.4.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.4.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

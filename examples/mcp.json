@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ki-song-erstellen-mcp": {
+      "command": "node",
+      "args": ["/ABSOLUTE/PATH/ki-song-erstellen-mcp/dist/index.js"],
+      "env": { "KISONG_API_KEY": "sk-YOUR-API-KEY" }
+    }
+  }
+}
