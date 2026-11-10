@@ -123,6 +123,15 @@ Tests verwenden eine lokale simulierte API und erzeugen keine kostenpflichtigen 
 
 Weitere technische Details: [docs/api-contract.md](docs/api-contract.md). Umsetzung mit dem offiziellen [MCP TypeScript SDK](https://ts.sdk.modelcontextprotocol.io/v2/get-started/first-server) und lokalem stdio-Transport.
 
+## In MCP-Verzeichnissen
+
+Öffentliche Einträge dieses MCP-Servers:
+
+- [Glama](https://glama.ai/mcp/servers/kisongerstellen/ki-song-erstellen-mcp)
+- [Claude Code Agents](https://www.claudecodeagents.com/mcp/ki-song-erstellen)
+- [Cursor Directory](https://cursor.directory/plugins/ki-song-erstellen-mcp)
+- [MCPRepository](https://mcprepository.com/kisongerstellen/ki-song-erstellen-mcp)
+
 ## Lizenz
 
 MIT für den Servercode. Die Nutzung der KlangKI API erfolgt über das eigene KlangKI-Konto.

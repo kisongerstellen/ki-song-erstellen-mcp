@@ -74,3 +74,12 @@ pnpm build
 ```
 
 Tests run against a local mock API without generating paid songs. The server code is licensed under MIT; API use requires your own KlangKI account.
+
+## MCP directory listings
+
+Public listings for this MCP server:
+
+- [Glama](https://glama.ai/mcp/servers/kisongerstellen/ki-song-erstellen-mcp)
+- [Claude Code Agents](https://www.claudecodeagents.com/mcp/ki-song-erstellen)
+- [Cursor Directory](https://cursor.directory/plugins/ki-song-erstellen-mcp)
+- [MCPRepository](https://mcprepository.com/kisongerstellen/ki-song-erstellen-mcp)
