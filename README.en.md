@@ -83,3 +83,4 @@ Public listings for this MCP server:
 - [Claude Code Agents](https://www.claudecodeagents.com/mcp/ki-song-erstellen)
 - [Cursor Directory](https://cursor.directory/plugins/ki-song-erstellen-mcp)
 - [MCPRepository](https://mcprepository.com/kisongerstellen/ki-song-erstellen-mcp)
+- [MCPServers](https://mcpservers.org/servers/kisongerstellen/ki-song-erstellen-mcp)
